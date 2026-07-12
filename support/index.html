@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>使用支持｜ForwardTimer 正向计时</title>
+  <meta name="description" content="ForwardTimer 正向计时的快速开始、常见问题和排障说明。">
+  <meta name="theme-color" content="#f8f8f5">
+  <link rel="canonical" href="https://forwardtimer.formyweblym.top/support/">
+  <link rel="icon" type="image/png" href="/assets/app-icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script defer src="/assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="主导航">
+      <a class="brand" href="/"><img src="/assets/app-icon.png" alt="" width="38" height="38"><span>ForwardTimer</span></a>
+      <button class="menu-button" type="button" aria-label="打开导航" aria-expanded="false" data-menu-button><span></span></button>
+      <div class="nav-links" data-menu data-open="false"><a href="/">产品</a><a href="/support/" aria-current="page">支持</a><a href="/privacy/">隐私</a></div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero shell">
+      <p class="eyebrow" data-reveal>Support</p>
+      <h1 data-reveal>使用支持</h1>
+      <p data-reveal>ForwardTimer 的设计很简单。这里把第一次使用、常见状态和最有效的排查步骤放在一起。</p>
+      <span class="page-meta" data-reveal>iPhone · iPad · Mac · iOS / iPadOS 17+ · macOS 14+</span>
+    </section>
+
+    <div class="doc-layout">
+      <section aria-labelledby="quick-start">
+        <div class="section-heading" data-reveal>
+          <p class="section-kicker">QUICK START</p>
+          <h2 id="quick-start">四步开始</h2>
+        </div>
+        <div class="steps">
+          <article class="step" data-reveal><span class="step-number">1</span><div><h2>开始</h2><p>点击“开始”，时间会从零持续向前累加。</p></div></article>
+          <article class="step" data-reveal><span class="step-number">2</span><div><h2>暂停与继续</h2><p>点击“暂停”保留当前进度；再次点击“开始”会从原进度继续。</p></div></article>
+          <article class="step" data-reveal><span class="step-number">3</span><div><h2>留下分段</h2><p>计时过程中点击“分段”，可以记录本段耗时和累计时间。</p></div></article>
+          <article class="step" data-reveal><span class="step-number">4</span><div><h2>重置并保存</h2><p>点击“重置”会结束本次计时，并把结果保存在设备上的历史记录中。</p></div></article>
+        </div>
+      </section>
+
+      <section class="doc-section" aria-labelledby="faq">
+        <h2 id="faq" data-reveal>常见问题</h2>
+        <div class="faq-grid">
+          <article class="faq-card" data-reveal><h3>切换到其他 App 后，计时会停吗？</h3><p>不会。回到 ForwardTimer 时，App 会根据时间点同步正确的累计时长。</p></article>
+          <article class="faq-card" data-reveal><h3>为什么“分段”或“重置”是灰色的？</h3><p>还没有产生有效计时时，这两个操作不可用。先点击“开始”，计时产生后即可使用。</p></article>
+          <article class="faq-card" data-reveal><h3>点击“重置”后，时间去哪里了？</h3><p>本次计时会进入“历史记录”。如果不需要，可在历史区域清空本机历史。</p></article>
+          <article class="faq-card" data-reveal><h3>提醒为什么没有出现？</h3><p>请在 iPhone / iPad 的“设置”或 Mac 的“系统设置”中打开“通知 → 正向计时”，并确认没有开启会拦截提醒的专注模式。</p></article>
+          <article class="faq-card" data-reveal><h3>分段和历史会上传吗？</h3><p>不会。它们保存在设备本地；主 App 与扩展只在同一 App Group 内共享必要的计时状态。</p></article>
+          <article class="faq-card" data-reveal><h3>需要创建账号吗？</h3><p>不需要。ForwardTimer 没有注册、登录或订阅账号流程。</p></article>
+        </div>
+      </section>
+
+      <section class="doc-section" aria-labelledby="troubleshooting">
+        <h2 id="troubleshooting" data-reveal>快速排查</h2>
+        <ol data-reveal>
+          <li>先回到 App 主界面，确认计时状态是“运行中”还是“已暂停”。</li>
+          <li>如果通知没有出现，到系统设置检查通知权限和专注模式。</li>
+          <li>如果小组件状态没有立即刷新，先打开一次主 App，再返回主屏幕查看。</li>
+          <li>确认系统版本不低于 iOS / iPadOS 17 或 macOS 14，并更新到该大版本的最新可用小版本。</li>
+          <li>仍有异常时，重新启动 App；本地历史记录通常不会因此丢失。</li>
+        </ol>
+        <div class="doc-callout" data-reveal><p><strong>请勿提交敏感信息。</strong>排查时只需记录设备型号、系统版本、出现问题前的操作步骤和页面状态；不要提供账号密码、验证码或其他私密内容。</p></div>
+      </section>
+
+      <section class="doc-section" aria-labelledby="data-permission">
+        <h2 id="data-permission" data-reveal>数据与权限</h2>
+        <h3>本地通知</h3>
+        <p>通知权限只用于按你选择的时间发送设备本地提醒。拒绝或撤销权限不会影响计时、分段与历史记录。</p>
+        <h3>本地存储</h3>
+        <p>当前计时状态、分段、历史和提醒设置存放在应用沙盒或同一 App Group 中。App 不把这些内容上传到开发者服务器。</p>
+        <h3>删除记录</h3>
+        <p>可以在 App 的历史记录区域清空历史。卸载 App 后，应用沙盒数据由系统按平台规则处理。</p>
+      </section>
+
+      <div class="support-banner" data-reveal>
+        <h2>先看状态，再做操作。</h2>
+        <p>大多数问题都可以通过下面三个信息快速定位：</p>
+        <ul><li>当前显示“运行中”还是“已暂停”</li><li>通知权限是否允许</li><li>设备系统版本是否满足要求</li></ul>
+      </div>
+      <a class="back-link" href="/">返回产品首页</a>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="footer-grid shell"><p class="footer-note">© <span data-year>2026</span> ForwardTimer</p><div class="footer-links"><a href="/">产品</a><a href="/privacy/">隐私政策</a></div></div></footer>
+</body>
+</html>
