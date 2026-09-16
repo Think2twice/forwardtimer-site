@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://forwardtimer.formyweblym.top/sitemap.xml
-
+Sitemap: https://wovenhours.formyweblym.top/sitemap.xml
