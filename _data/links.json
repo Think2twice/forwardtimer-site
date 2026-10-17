@@ -54,18 +54,23 @@
     },
     "privacy": {
       "title": "隐私政策",
-      "enabled": false,
-      "url": null
+      "enabled": true,
+      "url": "https://prism-weeder-6c2.notion.site/3fcad4535815810294f3cd9f79ec8c64"
     },
     "terms": {
       "title": "服务条款",
-      "enabled": false,
-      "url": null
+      "enabled": true,
+      "url": "https://prism-weeder-6c2.notion.site/3fcad45358158139b6b1fe9370760aef"
     },
     "download": {
       "title": "下载织时",
       "enabled": false,
       "url": null
+    },
+    "data-processing": {
+      "title": "AI 与语音数据处理协议",
+      "enabled": true,
+      "url": "https://prism-weeder-6c2.notion.site/AI-3fcad4535815816f8b1be4f685df1c27"
     }
   }
 }
