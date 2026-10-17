@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /app-links.json
+---
+{
+  "schemaVersion": {{ site.data.links.schemaVersion | jsonify }},
+  "routes": {
+    "x": {
+      "enabled": {{ site.data.links.routes.x.enabled | jsonify }},
+      "url": {{ site.data.links.routes.x.url | jsonify }},
+      "appURL": {{ site.data.links.routes.x.appURL | jsonify }}
+    },
+    "xiaohongshu": {
+      "enabled": {{ site.data.links.routes.xiaohongshu.enabled | jsonify }},
+      "url": {{ site.data.links.routes.xiaohongshu.url | jsonify }},
+      "appURL": {{ site.data.links.routes.xiaohongshu.appURL | jsonify }}
+    }
+  }
+}

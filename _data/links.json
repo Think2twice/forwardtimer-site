@@ -18,7 +18,8 @@
     "xiaohongshu": {
       "title": "小红书主页",
       "enabled": true,
-      "url": "https://xhslink.cn/o/AmcEjHGYLG"
+      "url": "https://xhslink.cn/o/AmcEjHGYLG",
+      "appURL": "xhsdiscover://user/60922b1c00000000010066dc"
     },
     "feedback": {
       "title": "提交反馈",
