@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "allowedHosts": [
+    "x.com",
+    "xhslink.cn",
+    "my.feishu.cn",
+    "wovenhours.formyweblym.top"
+  ],
+  "allowedMailtoRecipients": [
+    "docdreamer@outlook.com"
+  ],
+  "routes": {
+    "x": {
+      "title": "X 主页",
+      "enabled": true,
+      "url": "https://x.com/Wovenhours"
+    },
+    "xiaohongshu": {
+      "title": "小红书主页",
+      "enabled": true,
+      "url": "https://xhslink.cn/o/AmcEjHGYLG"
+    },
+    "feedback": {
+      "title": "提交反馈",
+      "enabled": true,
+      "url": "https://my.feishu.cn/share/base/form/shrcnhzMis6bGy7zQCLlYH2niTc"
+    },
+    "help": {
+      "title": "使用帮助",
+      "enabled": true,
+      "url": "https://wovenhours.formyweblym.top/support/"
+    },
+    "legal": {
+      "title": "法律与隐私",
+      "enabled": false,
+      "url": null
+    },
+    "product": {
+      "title": "产品介绍",
+      "enabled": true,
+      "url": "https://wovenhours.formyweblym.top/"
+    },
+    "changelog": {
+      "title": "更新记录",
+      "enabled": false,
+      "url": null
+    },
+    "roadmap": {
+      "title": "公开反馈板",
+      "enabled": false,
+      "url": null
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "enabled": false,
+      "url": null
+    },
+    "terms": {
+      "title": "服务条款",
+      "enabled": false,
+      "url": null
+    },
+    "download": {
+      "title": "下载织时",
+      "enabled": false,
+      "url": null
+    }
+  }
+}
