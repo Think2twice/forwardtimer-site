@@ -4,7 +4,8 @@
     "x.com",
     "xhslink.cn",
     "my.feishu.cn",
-    "wovenhours.formyweblym.top"
+    "wovenhours.formyweblym.top",
+    "prism-weeder-6c2.notion.site"
   ],
   "allowedMailtoRecipients": [
     "docdreamer@outlook.com"
@@ -29,7 +30,7 @@
     "help": {
       "title": "使用帮助",
       "enabled": true,
-      "url": "https://wovenhours.formyweblym.top/support/"
+      "url": "https://prism-weeder-6c2.notion.site/3fcad4535815812fa210db8e997753a8"
     },
     "legal": {
       "title": "法律与隐私",
