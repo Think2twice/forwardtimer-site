@@ -38,7 +38,7 @@
     destination.removeAttribute("href");
     status.textContent = "正在打开…";
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 4500);
+    const timeout = setTimeout(() => controller.abort(), 15000);
 
     try {
       // Destination selection uses only the fixed route path, never query/hash input.
