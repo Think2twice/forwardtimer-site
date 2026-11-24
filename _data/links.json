@@ -32,6 +32,11 @@
       "enabled": true,
       "url": "https://prism-weeder-6c2.notion.site/3fcad4535815812fa210db8e997753a8"
     },
+    "mcp-guide": {
+      "title": "MCP 使用说明",
+      "enabled": false,
+      "url": null
+    },
     "legal": {
       "title": "法律与隐私",
       "enabled": false,
