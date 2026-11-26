@@ -34,7 +34,7 @@ for (const [key,route] of Object.entries(config.routes)) {
  assert.deepEqual(r.redirects,route.enabled?[route.url]:[]);
  if(!route.enabled){assert.equal(route.url,null);assert.ok(r.elements['entry-status'].textContent.includes('暂未开放'));}
 }
-for(const url of ['http://x.com/','javascript:alert(1)','//x.com/','/support/','https://x.com.evil.example/','https://sub.x.com/','https://x.com@evil.example/','https://user:password@x.com/','https://x.com:8443/','https://x.com\\@evil.example/',' https://x.com/','https://x.com/\n','https://wovenhours.formyweblym.top/go/x/','https://wovenhours.formyweblym.top/%67o/x/','https://wovenhours.formyweblym.top/%2fgo/x/','mailto:someone@example.com','mailto:docdreamer@outlook.com?subject=test','mailto:docdreamer@outlook.com%0Acc:someone@example.com',null]) {
+for(const url of ['http://x.com/','javascript:alert(1)','//x.com/','/support/','https://x.com.evil.example/','https://sub.x.com/','https://x.com@evil.example/','https://user:password@x.com/','https://x.com:8443/','https://x.com\\@evil.example/',' https://x.com/','https://x.com/\n','https://wovenhours.site/go/x/','https://wovenhours.site/%67o/x/','https://wovenhours.site/%2fgo/x/','mailto:someone@example.com','mailto:docdreamer@outlook.com?subject=test','mailto:docdreamer@outlook.com%0Acc:someone@example.com',null]) {
  const r=render('x',withURL(url));assert.deepEqual(r.redirects,[]);assert.equal(r.elements['entry-destination'].hidden,true);assert.equal(r.elements['entry-retry'].hidden,false);
 }
 const mail=render('x',withURL('mailto:docdreamer@outlook.com'));assert.deepEqual(mail.redirects,[]);assert.equal(mail.elements['entry-destination'].href,'mailto:docdreamer@outlook.com');

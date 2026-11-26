@@ -17,7 +17,7 @@
       // Never loop through this redirect service, including encoded path segments.
       let path;
       try { path = decodeURIComponent(url.pathname).toLowerCase().replace(/\/{2,}/g, "/"); } catch { return null; }
-      if (url.hostname === "wovenhours.formyweblym.top" && /^\/go(?:\/|$)/.test(path)) return null;
+      if (url.hostname === "wovenhours.site" && /^\/go(?:\/|$)/.test(path)) return null;
       return url;
     }
 

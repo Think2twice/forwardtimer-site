@@ -2,7 +2,7 @@
 
 织时（Woven Hours）的产品网站，提供产品介绍、使用支持与隐私政策。
 
-- 产品网站：`wovenhours.formyweblym.top`
+- 产品网站：`wovenhours.site`
 - 支持页面：`/support/`
 - 隐私政策：`/privacy/`
 

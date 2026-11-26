@@ -1,6 +1,6 @@
 # 固定外链的维护
 
-App 使用 `https://wovenhours.formyweblym.top/go/<名称>/`。目标地址集中放在仓库 `_data/links.json`。修改并发布这个文件后，App 不需要更新。
+App 使用 `https://wovenhours.site/go/<名称>/`。目标地址集中放在仓库 `_data/links.json`。修改并发布这个文件后，App 不需要更新。
 
 GitHub Pages 发布时把配置写入各个跳转页，打开时不再额外请求配置。这是客户端跳转，入口通常先返回 HTTP 200，不是 HTTP 302。GitHub Pages 发布和缓存更新需要时间，保存文件不等于已在网上生效。
 

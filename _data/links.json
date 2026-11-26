@@ -4,7 +4,7 @@
     "x.com",
     "xhslink.cn",
     "my.feishu.cn",
-    "wovenhours.formyweblym.top",
+    "wovenhours.site",
     "prism-weeder-6c2.notion.site"
   ],
   "allowedMailtoRecipients": [
@@ -45,7 +45,7 @@
     "product": {
       "title": "产品介绍",
       "enabled": true,
-      "url": "https://wovenhours.formyweblym.top/"
+      "url": "https://wovenhours.site/"
     },
     "changelog": {
       "title": "更新记录",
