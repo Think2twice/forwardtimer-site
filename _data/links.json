@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "allowedHosts": [
+    "x.com",
+    "xhslink.cn",
+    "my.feishu.cn",
+    "wovenhours.formyweblym.top",
+    "prism-weeder-6c2.notion.site"
+  ],
+  "allowedMailtoRecipients": [
+    "docdreamer@outlook.com"
+  ],
+  "routes": {
+    "x": {
+      "title": "X 主页",
+      "enabled": true,
+      "url": "https://x.com/Wovenhours"
+    },
+    "xiaohongshu": {
+      "title": "小红书主页",
+      "enabled": true,
+      "url": "https://xhslink.cn/o/AmcEjHGYLG",
+      "appURL": "xhsdiscover://user/60922b1c00000000010066dc"
+    },
+    "feedback": {
+      "title": "提交反馈",
+      "enabled": true,
+      "url": "https://my.feishu.cn/share/base/form/shrcnhzMis6bGy7zQCLlYH2niTc"
+    },
+    "help": {
+      "title": "使用帮助",
+      "enabled": true,
+      "url": "https://prism-weeder-6c2.notion.site/3fcad4535815812fa210db8e997753a8"
+    },
+    "mcp-guide": {
+      "title": "MCP 使用说明",
+      "enabled": false,
+      "url": null
+    },
+    "legal": {
+      "title": "法律与隐私",
+      "enabled": false,
+      "url": null
+    },
+    "product": {
+      "title": "产品介绍",
+      "enabled": true,
+      "url": "https://wovenhours.formyweblym.top/"
+    },
+    "changelog": {
+      "title": "更新记录",
+      "enabled": false,
+      "url": null
+    },
+    "roadmap": {
+      "title": "公开反馈板",
+      "enabled": false,
+      "url": null
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "enabled": true,
+      "url": "https://prism-weeder-6c2.notion.site/3fcad4535815810294f3cd9f79ec8c64"
+    },
+    "terms": {
+      "title": "服务条款",
+      "enabled": true,
+      "url": "https://prism-weeder-6c2.notion.site/3fcad45358158139b6b1fe9370760aef"
+    },
+    "download": {
+      "title": "下载织时",
+      "enabled": false,
+      "url": null
+    },
+    "data-processing": {
+      "title": "AI 与语音数据处理协议",
+      "enabled": true,
+      "url": "https://prism-weeder-6c2.notion.site/AI-3fcad4535815816f8b1be4f685df1c27"
+    }
+  }
+}

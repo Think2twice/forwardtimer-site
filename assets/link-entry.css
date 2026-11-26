@@ -1,0 +1,14 @@
+:root{color-scheme:light dark;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;background:#f5f7f2;color:#172220}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;min-height:100svh;display:grid;place-items:center;padding:32px 24px;line-height:1.6}
+main{width:100%;max-width:440px}
+.brand{color:inherit;text-decoration:none;font-size:16px;font-weight:650;display:inline-flex;align-items:center;min-height:44px}
+h1{margin:24px 0 12px;font-size:clamp(24px,5vw,32px);line-height:1.3;overflow-wrap:anywhere}
+p{margin:0 0 20px;color:#52635e}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px;align-items:center}
+button,.action{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 18px;border:1px solid #66776f;border-radius:12px;font:inherit;text-decoration:none;background:transparent;color:inherit;cursor:pointer}
+.primary{background:#264e3b;color:#fff;border-color:#264e3b}
+:focus-visible{outline:3px solid #1e78b8;outline-offset:4px}
+[hidden]{display:none!important}
+noscript p{margin-top:20px}
+@media(prefers-color-scheme:dark){:root{background:#172220;color:#edf3ee}p{color:#bdcbc3}.primary{background:#b7ddbe;color:#172220;border-color:#b7ddbe}button,.action{border-color:#8ba096}}

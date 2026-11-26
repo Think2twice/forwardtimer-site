@@ -1,0 +1,9 @@
+exclude:
+  - scripts
+  - LINKS.md
+  - README.md
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null
